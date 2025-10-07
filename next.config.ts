@@ -4,6 +4,8 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
   trailingSlash: true,
+  basePath: '/print-name-label',
+  assetPrefix: '/print-name-label',
   images: {
     unoptimized: true
   },
